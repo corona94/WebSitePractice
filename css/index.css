@@ -1,14 +1,85 @@
-
-
 /*Tittle of Jumbotron Index*/
 
-.class-tittle-jumbotron {
-    
-    color: red;
+#body
+{
+background-color: #000000;
 
 }
 
+
+#jumbotron-background {
+  background: #000000
+}
+
+/*************Div right jumbotron*************/
+
+#div-right-jumbotron {
+
+  background: #000000;
+  background-size: cover; /* Cover the entire element */
+  background-position: left; /* Center the background */  
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  width: 50%; /* Image width */
+  height: 500px;
+
+}
+
+/*************Div right jumbotron end*************/
+
+
+
+/***************Div line vertical************/
+
+#vl {
+  position: absolute;
+  left: 50%;
+  top: auto;
+  width: 2px;               /* Ancho de la línea vertical */
+  height: 500px;            /* Altura de la línea */
+  margin: auto;             /* Espaciado para visualizarlo mejor en la demo */
+  background-image: linear-gradient(to bottom, transparent, #fff200 40%, #fffb02 40%, transparent);
+  }
+
+  /*************Div line vertical end*************/
+
+
+
+  
+/*************Div left jumbotron*************/
+
+
+
+#div-letter-jumbotron-left
+{ 
+  width: 50%; /* Image width */
+  height: 10px;
+  position: relative;
+  position: absolute;
+  right: 0; /* posiciona el div en el extremo derecho del contenedor */
+  
+}
+
+#letter-left-jumbotron {
+
+  color:#fff200;
+
+}
+.drop-cap::first-letter {
+
+  text-align: right;
+  float: right;
+  font-size: 3em;          /* Set the size of the first letter */
+  line-height: 0.8em;     /* Adjust the line-height for proper vertical alignment */
+  margin-right: 0.1em;    /* Add some space between the giant letter and the next letter */
+  font-weight: bold;    /* Make it bold if desired */
+}
+
+/*************Div left jumbotron end*************/
+
+
+
+
+
+
+
 /*END*/
-
-
-
